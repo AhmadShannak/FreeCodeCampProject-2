@@ -1,0 +1,268 @@
+<!--CSS CODE GOES HERE-->
+<style>
+*{
+	font-family: monospace;
+	font-size: 16px;
+}
+section#nav-section nav{
+	padding:10px;
+	background-color: black;
+	border-bottom: 1px solid #444;
+}
+section#nav-section nav.navbar div.container div.navbar-header a.navbar-brand{
+	color: white;
+}
+div.collapse ul.nav li a{
+	color: white;
+}
+section#Home{
+	background:url(Home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 650px;
+}
+#welcoming{
+	font-family: monospace;
+	letter-spacing: 4px;
+	font-size: 35px;
+	font-weight: 700;
+	color: white;
+}
+div.bg-color{
+	background-color: rgba(0,0,0,0.58);
+	min-height: 650px;
+}
+body hr{
+	height: 3px;
+	width: 250px;
+	background:#ffb377;
+	border: 0;
+	margin:20px 0px 20px 0px;
+}
+.white{
+	color:white;
+}
+section#intro{
+	margin-top: 100px;	
+}
+body .padd-right{
+	margin-left: 75px;
+}
+body img.img-intro{
+	border:2px solid #ffb377;
+	border-radius: 50%;
+}
+body .gray{
+	color:gray;
+}
+body p.smaller{
+	font-size: 14px;
+}
+body div.thumbnail img{
+	height: 150px;	
+}
+section#contact{
+	padding-top: 100px;
+}
+body .marg-top{
+	margin-top: 95px;
+}
+section#contact{
+	background-color: gray;
+}
+body button.footer-buttons{
+	border-radius: 50%;
+}
+body button.special{
+	margin-left: 30px;
+}
+body #cr{
+	background-color: black;
+	min-height: 100px;
+	padding-top: 30px;
+}
+body #first-part-of-the-footer{
+	padding-bottom: 30px;
+}
+</style>
+<!--HTML CODE GOES HERE-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=false;">
+	<title>Personal Page</title>
+	<!--BootStrap Librarries-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--MOBILE RESPONSE LIBRARY-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--JQUERY LIBRARY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--JSCRIPT LIBRARY-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<!--/BootStrap Librarries-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<!--NAV SECTION-->
+	<section id="nav-section">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav" aria-expanded="false">
+	        		  <span class="sr-only">Toggle navigation</span>
+	      			  <span class="icon-bar"></span>
+	     			  <span class="icon-bar"></span>
+	   				  <span class="icon-bar"></span>
+	     			</button>
+					<a class="navbar-brand"> Ahmad Shannak</a>
+				</div>
+				<div class="collapse navbar-collapse" id="mynav">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="PersonalPage.html">Home</a></li>
+						<li><a href="#Home">About</a></li>
+						<li><a href="#intro">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+	<!--/NAV SECTION-->
+	<!--Home-->
+	<section id="Home">
+		<div class="bg-color">
+			<div  class="container">
+				<div class="row" style="padding-top: 190px;">
+					<div class="col-md-8">
+						<h3 id="welcoming">Welcome</h3>
+						<hr id="home-hr">
+						<p class="white" style="margin-top: 45px;">
+							Software Enginering Student at PSUT , Code Camper at FreeCodeCamp <i class="fa fa-fire"></i> , i have alittle bit of experience in Front-End Development and Game Development , I'm also in love with booth Coding and Coffee , Next to Gaming .
+						</p>
+						<br>
+						<br>
+					</div>
+					<div class="col-md-4">
+						<img src="Me.jpg" width="250px;" style="border-radius: 50% ;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/Home-->
+	<!--intro-->
+	<section id="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Portfolio</h3>
+					<hr style="width: 170px;">
+					<br>
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<a href="https://github.com/AhmadShannak/Uni-WebSite-"><img src="Web.jpg"></a>
+							<div class="caption">
+								<p>
+									HTML Project 
+								</p>
+								<p class="smaller gray">
+									A Resbonsive Front-End project i created for my HTML Course in the university .
+									Used HTML , CSS , Jscript and Bootstrap .
+								</p>
+							</div>
+						</div>
+						<div class="thumbnail">
+							<a href="http://powerleaguegaming.com/?lang=en"><img src="jgaming week.jpg"></a>
+							<div class="caption">
+								<p>
+									PLG League Tournament
+								</p>
+								<p class="smaller gray">
+									Jordan Gamin week happens 1 week each year grouping all the gamers around Jordan to compete on the title of Jordan Champion To repreasent Jordan at Dubai Fanta Master, i only participated once and fught vs 24 team .
+									However me and my Team was only able to reach the QuarterFinal. which am still proud of . 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<img src="GamingDEV.jpg">
+							<div class="caption">
+								<p>
+									Roll A Ball
+								</p>
+								<p class="smaller gray">
+									Roll A Ball Is a Game me and my friend are creating Using Unity With C# Scripting
+									(NOT READY YET) .
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<a href="https://docs.google.com/presentation/d/11MCIjr-nX9hpx1762RopHpjqpA9EkBZPkAiCl-L_fYs/edit#slide=id.gc6f90357f_0_0"><img src="AI.jpg"></a>
+							<div class="caption">
+								<p>
+									Deep Mozart 1.0
+								</p>
+								<p class="smaller gray">
+									Deep Mozart 1.0 is an AI project my and my friends created for The AI course we took in the University , We used booth python and RNNS , For more details click on the icon.   
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<a href="https://www.facebook.com/RektGC/"><img src="rekt.png"></a>
+							<div class="caption">
+								<p>
+								 	RGC Champions 2017
+								</p>
+								<p class="smaller gray">
+									Rekt Gaming CLub is a club for the PSUT Students to particpate and fight against each others , it contain alot of Esports games Such as (League of legends ,Dota , and much more).
+									However Me and my Team Members were able to Win the whole tournament , and become the champions for League of legends RGC Tournamnet.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/intro-->
+	<!--contact-->
+	<section id="contact">
+		<div class="container" id="first-part-of-the-footer">
+			<div class="col-md-3 col-md-offset-3">
+				<h4 class=" white">Quick Links</h4>
+				<ul>
+					<a href="#Home"><li class="white">Home</li></a>
+					<a href="#Home"><li class="white">About</li></a>
+					<a href="#intro"><li class="white">Portfolio</li></a>
+					<a href="#contact"><li class="white">Contact</li></a>
+				</ul>
+			</div>
+			<div class="col-md-3">
+			<h4 class="white">Contact Me </h4>
+			<a><button class="btn footer-buttons special white" style="background-color: #3b5998;"><i class="fa fa-facebook"></i></button></a>
+			<a><button class="btn footer-buttons white" style="background-color: darkgreen;"><i class="fa fa-fire"></i></button></a>
+			<a href="https://github.com/AhmadShannak"><button class="btn footer-buttons white" style="background-color:#24292e;"><i class="fa fa-github"></i></button></a>
+			</div>
+		</div>
+		<div id="cr">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h5 class="white text-center">Created By Ahmad Shannak</h5>
+						<h6 class="white text-center"> All Rights Reserved</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/contact-->
+</body>
+</html>
